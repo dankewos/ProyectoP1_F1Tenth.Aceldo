@@ -138,19 +138,19 @@ source install/setup.bash
 ros2 launch f1tenth_gym_ros simulator_launch.py
 ros2 run controllers followgap
 ```
+---
+## Resultado Esperado
 
-### Resultado Esperado
 El vehículo navega autónomamente sin chocar con las paredes.
 
-Se imprimen en consola:
+   Se imprimen en consola:
+   
+   - Vuelta completada
+   - Tiempo de cada vuelta
+   - Tiempo mas corto
+   - Mensaje final al llegar a 10 vueltas
+---
 
-Vuelta completada
-
-Tiempo de cada vuelta
-
-Tiempo más corto
-
-Mensaje final al llegar a 10 vueltas
 
 ### Video de Demostración
 
