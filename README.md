@@ -124,22 +124,22 @@ F1TENTH-REPOSITORY/
 git clone https://github.com/dankewos/ProyectoP1_F1Tenth.Aceldo.git
 ```
 
-**### 2. Acceder a la ubicacion del repositorio**
+### 2. Acceder a la ubicacion del repositorio
 ```bash
 cd ProyectoP1_F1Tenth.Aceldo
 ```
-**### 3. Compilar y cargar el entorno**
+### 3. Compilar y cargar el entorno
 ```bash
 colcon build
 source install/setup.bash
 ```
-**### 4. Ejecutar la simulacion y el archivo que contiene el proyecto**
+### 4. Ejecutar la simulacion y el archivo que contiene el proyecto
 ```bash
 ros2 launch f1tenth_gym_ros simulator_launch.py
 ros2 run controllers followgap
 ```
 
-**### Resultado Esperado**
+### Resultado Esperado
 El vehículo navega autónomamente sin chocar con las paredes.
 
 Se imprimen en consola:
@@ -152,8 +152,10 @@ Tiempo más corto
 
 Mensaje final al llegar a 10 vueltas
 
-**###Video de Demostración**
+### Video de Demostración
+
 https://youtu.be/DYyZG_X7Nd0
+
 🎥 Demostración completa del controlador Follow the Gap con sistema de conteo de vueltas y temporizador en el simulador F1TENTH.
 
 
