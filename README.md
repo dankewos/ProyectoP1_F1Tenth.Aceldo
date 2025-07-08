@@ -122,17 +122,22 @@ F1TENTH-REPOSITORY/
 
 ```bash
 git clone https://github.com/dankewos/ProyectoP1_F1Tenth.Aceldo.git
+```
 
 **### 2. Acceder a la ubicacion del repositorio**
+```bash
 cd ProyectoP1_F1Tenth.Aceldo
-
+```
 **### 3. Compilar y cargar el entorno**
+```bash
 colcon build
 source install/setup.bash
-
+```
 **### 4. Ejecutar la simulacion y el archivo que contiene el proyecto**
+```bash
 ros2 launch f1tenth_gym_ros simulator_launch.py
 ros2 run controllers followgap
+```
 
 **### Resultado Esperado**
 El vehículo navega autónomamente sin chocar con las paredes.
