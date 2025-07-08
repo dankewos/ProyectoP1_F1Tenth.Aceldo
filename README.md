@@ -71,7 +71,7 @@ Este script contiene el nodo ROS 2 `ReactiveFollowGap`, que ejecuta el controlad
 ---
 
 ## Estructura del Código
-
+```sh
 F1TENTH-REPOSITORY/
 ├── src/
 │   ├── controllers/
@@ -113,7 +113,7 @@ F1TENTH-REPOSITORY/
 │   │   │   ├── Spielberg_map.yaml
 │   │   │   ├── Spielberg_obs_map.png
 │   │   │   └── Spielberg_obs_map.yaml
-
+```
 ---
 
 ## Instrucciones de Ejecución
