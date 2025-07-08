@@ -152,7 +152,7 @@ El vehículo navega autónomamente sin chocar con las paredes.
 ---
 
 
-### Video de Demostración
+## Video de Demostración
 
 https://youtu.be/DYyZG_X7Nd0
 
@@ -160,6 +160,9 @@ https://youtu.be/DYyZG_X7Nd0
 
 
 Autor: Grazia Aceldo
+
 Curso: Vehículos No Tripulados
+
 Universidad: Escuela Superior Politecnica del Litoral
+
 Repositorio: https://github.com/dankewos/ProyectoP1_F1Tenth.Aceldo
